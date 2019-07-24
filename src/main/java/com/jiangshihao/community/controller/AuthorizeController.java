@@ -58,8 +58,8 @@ public class  AuthorizeController {
             response.addCookie(new Cookie("token",token));
             return "redirect:/";
         } else {
-          //登录失败
-          return " redirect:/";
+            //登录失败
+            return " redirect:/";
         }
     }
 }
